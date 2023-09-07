@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="is">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Góður matur, gott líf!">
+    <meta property="og:description" content="Réttir sem skilja eftir minningar">
+    <meta property="og:image" content="../myndir/sharing.jpg">
+
+    <meta property="description" content="Góður matur, gott líf!">
+
+    <title>Pontun</title>
+</head>
+
+<body>
+    <header>
+        <h1> Virki Haninn </h1>
+        <nav>
+            <a href="../index.html">Heim</a>
+            <a href="menu.html">Matseðill</a>
+            <strong><a href="orders.html">Panta</a></strong>
+            <a href="about.html">Um okkur</a>
+        </nav>
+    </header>
+    <a href="#start">Beint í efni</a>
+    <main>
+        <h1 id="start"> Pantanir </h1>
+
+        <p>Pantaðu borð og mættu til okkar eða pantaðu mat sem við sendum þér eða þú sækir.</p>
+
+        <form>
+
+            <h3> Panta borð </h3>
+
+            <fieldset>
+                <div>
+                    <label for="time">
+                        Hvenær villtu koma?
+                        <input id="time" type="datetime-local">
+                    </label>
+                </div>
+                <div>
+                    <label for="count">
+                        Hve mörg?
+                        <input id="count" type="number" id="quantity" name="quantity" min="1" max="10"
+                            placeholder="1-10">
+                    </label>
+                </div>
+                <div>
+                    <label for="comment">Viltu taka eitthvað fram?:</label>
+                    <textarea name="comment" id="comment"></textarea>
+                </div>
+            </fieldset>
+
+
+            <h3> Panta mat </h3>
+            <fieldset>
+                <div>
+                    <label for="panta">Pöntun:</label>
+                    <select id="panta" name="panta">
+                        <option value="lasagna">Lasagna</option>
+                        <option value="supa">Súpa dagsinns</option>
+                        <option value="pasta">Ferskt pasta með pestó</option>
+                        <option value="kartafla">Kryddaðar sætkartöflur</option>
+                        <option value="Pizza">Pizza</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="address">Heimili:</label>
+                    <textarea name="address" id="address"></textarea>
+                </div>
+            </fieldset>
+
+            <h3> Þínar upplýsingar </h3>
+
+            <fieldset>
+                <legend>Persónuupplýsingar</legend>
+                <label>
+                    Nafn:
+                    <input type="text" id="name" required>
+                </label>
+                <label>
+                    E-Mail:
+                    <input type="text" id="mail" placeholder="abcd123@service.com" required>
+                </label>
+                <label>
+                    Sími:
+                    <input type="text" id="phone" placeholder="0000-000" required>
+                </label>
+
+            </fieldset>
+
+            <br />
+            <h3>Samþykkja og panta</h3>
+
+            <fieldset>
+                <div>
+                    <label>
+                        <input name="agreement" type="checkbox">
+                        Ég samþykki skilmála Veitingastaðsins
+                    </label>
+                </div>
+                <div>
+                    <button>Senda</button>
+                </div>
+            </fieldset>
+
+        </form>
+        <a href="../index.html">Aftur á forsíðu</a>
+    </main>
+    <footer>
+        <br />
+        <h2> Opnunartími </h2>
+
+        <dl>
+            <dt>Mánudaga til fimmtudaga</dt>
+            <dd>09:00–18:00</dd>
+            <dt>Föstudaga</dt>
+            <dd>10:00–22:00</dd>
+            <dt>Laugardaga</dt>
+            <dd>11:00–22:00</dd>
+            <dt>Sunnudaga</dt>
+            <dd>Lokað</dd>
+        </dl>
+
+        <h2> Hér erum við </h2>
+
+        <p>Veitingastaðurinn ehf.</p>
+        <p>Aðalgata 10</p>
+        <p>100 Reykjavík</p>
+        <p>Sími 333-4567</p>
+        <p>veitingastadur@example.org</p>
+
+
+    </footer>
+
+
+</body>
+
+</html>
