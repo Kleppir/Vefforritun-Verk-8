@@ -1,0 +1,259 @@
+/*
+#ffe7ae, #2f0505 #fff1cf, #fff9ee
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+    max-width: 900px;
+
+    font-family: Lora;
+}
+
+header {
+    background-color: #2f0505;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 8px solid #ffe7ae;
+    width: 100%;
+    color:#fff1cf
+}
+
+nav {
+    background-color: #fff9ee;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+.goBack {
+    text-decoration: underline;
+    color: black;
+    font-weight: 700;
+}
+
+
+
+/* index frontpage */
+
+
+.mainBox {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 2rem;
+}
+
+.mainBox dt {
+    font-weight: bold;
+}
+
+.mainBox dd {
+    margin-bottom: 0.5rem;
+}
+
+.mainBox p {
+    margin-bottom: 0.5rem;
+}
+
+.mainBox h3 {
+    margin-bottom: 0.5rem;
+}
+
+.mainBox a {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+.bigBox {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ffe7ae;
+}
+
+.biggestBox {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+    margin: 2rem;
+}
+
+
+/* Menu  ----------------*/
+
+tbody tr:nth-child(2n-1) {
+    background-color: #ffe7ae;
+}
+
+td {
+    text-align: left;
+    padding: 0.2rem 1rem;
+}
+
+th {
+    padding: 0.2rem 1rem;
+    text-align: left;
+}
+
+tr {
+    height: 2rem;
+}
+
+.tableDiv{
+    width: 100%;
+    margin: 1rem;
+}
+
+table {
+    margin-bottom: 1rem;
+    border-spacing: 0;
+}
+
+
+/* about */
+
+.images {
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ffe7ae;
+
+}
+
+.person{
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 2rem;
+    vertical-align: top;
+}
+
+.images img {
+    width: 95%;
+    text-align: center;
+}
+
+.dialogue {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+    margin-bottom: 2rem;
+}
+
+.dialogue h1 {
+    margin-bottom: 1rem;
+}
+
+.dialogue h2 {
+    margin-bottom: 1rem;
+}
+
+.dialogue p {
+    margin-bottom: 1rem;
+}
+
+.dialogue blockquote {
+    margin-bottom: 2rem;
+}
+
+.images h2 {
+    margin-bottom: 1rem;
+}
+
+
+/* Orders */
+
+.panta {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2rem;
+}
+
+.pantaForm fieldset {
+    border: 1px solid #ffe7ae;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+}
+
+.pantaForm input {
+    padding: 0.5rem;
+}
+
+.pantaForm label{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+.panta .pantaForm {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ffe7ae;
+    display: block;
+}
+
+.panta legend {
+    font-weight: 700;
+}
+
+.panta h1 {
+    margin-bottom: 1rem;
+}
+
+.panta p {
+    margin-bottom: 1rem;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #2f0505;
+    border-top: 8px solid #ffe7ae;
+    color: #fff1cf;
+}
+
+footer .content {
+    width: 100%;
+    text-align: center;
+}
+
+footer .content .box {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+footer dd {
+    margin-bottom: 1rem;
+}
+
+footer dt {
+    font-weight: 700;
+}
+
+footer .box p {
+    margin-bottom: 1rem;
+}
