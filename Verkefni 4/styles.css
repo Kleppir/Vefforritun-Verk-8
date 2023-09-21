@@ -70,7 +70,7 @@ a {
 h2,
 h3,
 section {
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing);
 }
 
 img {
@@ -102,8 +102,8 @@ img {
 /*** Valmynd ***/
 
 .nav {
-  margin-bottom: 1rem;
-  padding: 1rem;
+  margin-bottom: var(--spacing);
+  padding: var(--spacing);
 
   background-color: var(--color-light);
   color: var(--color-dark);
@@ -122,8 +122,8 @@ img {
 
 .main {
   margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
   max-width: var(--max-width);
 
   display: flex;
@@ -133,8 +133,8 @@ img {
 /*** Fótur ***/
 
 .footer {
-  margin-top: 1rem;
-  padding: 1rem;
+  margin-top: var(--spacing);
+  padding: var(--spacing);
   border-top: var(--border-large) solid var(--color-gold);
 
   background-color: var(--color-dark);
@@ -209,7 +209,7 @@ img {
 
 .boxes .box a {
 
-  margin-top: 1rem;
+  margin-top: var(--spacing);
   font-weight: bold;
 }
 
@@ -224,7 +224,7 @@ dt {
 }
 
 dd {
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing);
 }
 
 /*** Um okkur ***/
@@ -241,7 +241,7 @@ dd {
 /*** Matseðill ***/
 
 table {
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing);
   border-spacing: 0;
 }
 
@@ -257,9 +257,9 @@ table tbody tr:nth-child(2n + 1) {
 /*** Pöntunarform ***/
 
 fieldset {
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing);
   border: var(--border-small) solid var(--color-gold);
-  padding: 1rem;
+  padding: var(--spacing);
 }
 
 fieldset legend {
@@ -267,7 +267,7 @@ fieldset legend {
 }
 
 fieldset div {
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing);
 }
 
 fieldset div label {
